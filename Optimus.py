@@ -12,14 +12,14 @@ from fyers_main import Fyers_Symbol, Fyers_Orders
 import config
 
 Lots = config.user_detail['lots']
-EQ_bot_token = "1555749245:AAF3xYiG7O88WFKOqCXFNLCBMenOpbEiDgA"
-EQ_bot_chat_ids = ['903638978']
+EQ_bot_token = ""
+EQ_bot_chat_ids = ['']
 #####TO BE CONFIGURED
 tele_api_id = None #< YOUR TELEGRAM APP ID > 
 tele_api_hash = None #< YOUR TELEGRAM HASH >
 #=================================
 client = TelegramClient('anon', tele_api_id, tele_api_hash)
-user_input_channels = ['https://t.me/EGQbot'] #Listens to Eaglequant bot for any messages to execute.
+user_input_channels = [''] #Listens to Eaglequant bot for any messages to execute.
 print("Telegram bot is listening")
 #=================================
 
